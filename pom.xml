@@ -5,7 +5,6 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.mycompany.app</groupId>
-  <packaging>war</packaging>
   <artifactId>my-app</artifactId>
   <version>simple-Java-app-maven-pipeline-build-v1.0</version>
   
@@ -75,8 +74,7 @@
         <plugin>            
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-war-plugin</artifactId>
-          <configuration>
-          <webXml>my-app\src\main\webapp\WEB-INF\web.xml</webXml>        
+          <configuration>       
           </configuration>
   </plugin>
       </plugins>
